@@ -1,0 +1,83 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  /* background: rgba(35, 35, 35, 0.9); */
+  /* background-image: url(https://www.phoneworld.com.pk/wp-content/uploads/2020/10/seo-watch-free-link-preview.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll; */
+  /* width: 100%;
+  height: 100vh;
+  background-size:cover; */
+  background-color: #f0ffff;
+}
+.heading_style{
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  /* background-color: #f1f1f1; */
+  color: gray;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  
+ 
+}
+.cards{
+  
+ 
+ 
+ 
+  
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+ /* border: 2px solid black; */
+ width: 80%;
+ margin: auto;
+ 
+ margin-top: 20px;
+ margin-bottom: 5rem;
+ 
+}
+.card  {
+ background-color: lightslategray;
+ margin: auto;
+ justify-content: center;
+ /* border: 2px solid yellow; */
+
+ border-bottom: 10px;
+ box-shadow:   2px 2px 2px wheat;
+ /* box-shadow:  -2px -2px -5px whitesmoke; */
+ border-radius: 10px;
+ position: relative;
+ 
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border-style: inset;
+  border-color: aqua;
+}
+
+
+.card_info{
+  text-align: center;
+  color: whitesmoke;
+}
+
+button{
+  padding: 5px 10px;
+  background-color: #fff;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #f2f3;
+  border-radius: 10px;
+ 
+}
+
